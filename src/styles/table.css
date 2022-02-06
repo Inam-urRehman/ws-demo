@@ -1,0 +1,36 @@
+.orders {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.orders td,
+.orders th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+.orders tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.orders tr:hover {
+  background-color: #ddd;
+}
+
+.orders th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.orders tr td.align-right {
+  text-align: right;
+}
+
+.orders tr th.align-right {
+  text-align: right;
+}
